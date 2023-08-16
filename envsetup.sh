@@ -2148,3 +2148,4 @@ fi
 export ANDROID_BUILD_TOP=$(gettop)
 
 . $ANDROID_BUILD_TOP/vendor/lineage/build/envsetup.sh
+setbuildtype
