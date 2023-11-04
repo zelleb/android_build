@@ -33,7 +33,6 @@ $(call inherit-product-if-exists, frameworks/base/data/keyboards/keyboards.mk)
 $(call inherit-product-if-exists, frameworks/webview/chromium/chromium.mk)
 
 PRODUCT_PACKAGES += \
-    BasicDreams \
     BlockedNumberProvider \
     BluetoothMidiService \
     BookmarkProvider \
@@ -46,7 +45,6 @@ PRODUCT_PACKAGES += \
     CredentialManager \
     DocumentsUI \
     DownloadProviderUi \
-    EasterEgg \
     ExternalStorageProvider \
     FusedLocation \
     InputDevices \
@@ -64,7 +62,6 @@ PRODUCT_PACKAGES += \
     screenrecord \
     SecureElement \
     SharedStorageBackup \
-    SimAppDialog \
     Telecom \
     TelephonyProvider \
     TeleService \
